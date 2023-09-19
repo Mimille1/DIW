@@ -48,10 +48,35 @@
     <div class="container-fluid" style="background-image: url(ASSET/Fond/bg.jpg); height: 10rem;"></div>
 
     <form>
-        <div class="form-group">
-            <label for="courriel">Adresse mail</label>
-            <input type="email" class="form-controle" name="mail_address" id="courriel" placeholder="Saisir votre adresse mail">
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="nom">Nom</label>
+                <input type="text" class="form-control">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="prenom">Prénom</label>
+                <input type="text" class="form-control">
+            </div>
         </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-4">
+                <label for="email">Email</label>
+                <input type="email" class="form-control">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="tel">Téléphone</label>
+                <input type="tel" class="form-control">
+            </div>
+        </div>
+
+        <div class="mb-3">
+            <label for="demande">Votre demande</label>
+            <input type="textarea" class="form-control">
+        </div>
+
+        
+
     </form>
 
 </body>
