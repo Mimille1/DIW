@@ -12,6 +12,8 @@
 </head>
 
 <body>
+
+    <!-- Navbar + lien page -->
     <div class="container-fluid parallax">
         <div class="row">
             <div class="col-3">
@@ -48,14 +50,22 @@
         </div>
     </div>
 
-    <!-- Image de fond + Recherche -->
-    <div class="container-fluid" style="background-image: url(ASSET/Fond/fond-planche-blanc.avif); height: 10rem;">
-        <form>
-            <div class="form-group">
-                <input type="text" class="form-controle" placeholder="Recherche ...">
+    <!-- Image fond + Recherche -->
+    <div class="row">
+        <div class="display-flex col-12 justify-content-center align-items-center"
+            style="min-height: 10rem; background-image: url(ASSET/Fond/fond-planche-blanc.avif)">
+            <div class="bg-light p-4 rounded display-none display-md-block" style="width: 80%; max-width: 400px;">
+                <form>
+                    <div class="form-group display-none display-md-block">
+                        <input type="text" class="form-controle" placeholder="Recherche ...">
+                    </div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
+
+
+
 
     <div class="card-deck justify-content-center display-none display-flex">
         <div class="col-4 display-flex justify-content-center">
@@ -133,7 +143,7 @@
         </div>
     </div>
 
-
+    <br>
     <!-- Réseau -->
     <div class="row col-12 justify-content-center">
         <img src="ASSET/the_district_brand/facebook logo.png" class="img-fluid" alt="facebook"
