@@ -12,11 +12,15 @@
 </head>
 
 <body>
-    <div class="container-fluid">
-        <div class="col">
-            <img src="ASSET/the_district_brand/logo.png" alt="logo_distrit" height="80" width="80">
-            <nav class="navbar navbar-collapse" id="navbarSupportedContent">
+    <div class="container-fluid parallax">
+        <div class="row">
+            <div class="col-3">
+                <img src="ASSET/the_district_brand/logo.png" class="d-inline-block align-top" alt="logo_distrit"
+                    height="auto" width="90px">
+            </div>
+            <nav class="navbar navbar-expand-md navbar-light" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
+
 
                     <div class="col">
                         <li class="nav-item active">
@@ -45,16 +49,15 @@
         </div>
     </div>
 
+    <!-- Image de fond -->
     <div style="background-image: url(ASSET/Fond/bg.jpg); height: 10rem;"></div>
+
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         </ol>
 
         <div class="carousel-inner">
@@ -69,13 +72,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="carousel-item">
-                <div class="card-deck justify-content-center display-none display-flex">
-                    <div class="col-4 display-flex justify-content-center">
                         <div class="card-deck">
                             <div class="card">
                                 <img src="ASSET/category/burger_cat.jpg" class="d-block w-50" alt="burger">
@@ -84,13 +81,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="carousel-item">
-                <div class="card-deck justify-content-center display-none display-flex">
-                    <div class="col-4 display-flex justify-content-center">
                         <div class="card-deck">
                             <div class="card">
                                 <img src="ASSET/category/pasta_cat.jpg" class="d-block w-50" alt="pate">
@@ -99,13 +90,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="carousel-item">
-                <div class="card-deck justify-content-center display-none display-flex">
-                    <div class="col-4 display-flex justify-content-center">
                         <div class="card-deck">
                             <div class="card">
                                 <img src="ASSET/category/pizza_cat.jpg" class="d-block w-50" alt="pizza">
@@ -114,13 +99,8 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="carousel-item">
-                <div class="card-deck justify-content-center display-none display-flex">
-                    <div class="col-4 display-flex justify-content-center">
+
                         <div class="card-deck">
                             <div class="card">
                                 <img src="ASSET/category/salade_cat_resized.jpg" class="d-block w-50" alt="salade">
@@ -129,22 +109,19 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="carousel-item">
-                <div class="card-deck justify-content-center display-none display-flex">
-                    <div class="col-4 display-flex justify-content-center">
                         <div class="card-deck">
                             <div class="card">
                                 <img src="ASSET/category/sandwich_cat.jpg" class="d-block w-50" alt="sand">
                                 <div class="card-body">
                                     <h5 class="card-title">Catégorie Sandwish</h5>
                                 </div>
+
+
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -157,9 +134,17 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
-        
-    </div>
 
+        <div class="row">
+            <div class="col-6">
+                <button type="button" class="btn btn-primary"> Précédent</button>
+            </div>
+
+            <div class="col-6">
+                <button type="button" class="btn btn-primary">Suivant</button>
+            </div>
+        </div>
+    </div>
 
     <!-- Réseau -->
     <div class="row col-12 justify-content-center">
