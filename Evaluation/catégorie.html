@@ -55,95 +55,96 @@
 
 
     <!-- Carousel -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="card-deck justify-content-center display-none display-flex">
-                    <div class="col-4 display-flex justify-content-center">
-                        <div class="card-deck">
-                            <div class="card">
-                                <img src="ASSET/category/asian_food_cat_resized.jpg" class="d-block w-50" alt="asian">
-                                <div class="card-body">
-                                    <h5 class="card-title">Catégorie Asiatique</h5>
-                                </div>
-                            </div>
-                        </div>
+    <div class="container">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
 
-                        <div class="card-deck">
-                            <div class="card">
-                                <img src="ASSET/category/burger_cat.jpg" class="d-block w-50" alt="burger">
-                                <div class="card-body">
-                                    <h5 class="card-title">Catégorie Burger</h5>
-                                </div>
-                            </div>
-                        </div>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="card-deck">
 
-                        <div class="card-deck">
-                            <div class="card">
-                                <img src="ASSET/category/pasta_cat.jpg" class="d-block w-50" alt="pate">
-                                <div class="card-body">
-                                    <h5 class="card-title">Catégorie Pâtes</h5>
-                                </div>
-                            </div>
-                        </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Catégorie Asiatique</h5>
 
-                        <div class="card-deck">
-                            <div class="card">
-                                <img src="ASSET/category/pizza_cat.jpg" class="d-block w-50" alt="pizza">
-                                <div class="card-body">
-                                    <h5 class="card-title">Catégorie Pizza</h5>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="card-deck">
-                            <div class="card">
-                                <img src="ASSET/category/salade_cat_resized.jpg" class="d-block w-50" alt="salade">
-                                <div class="card-body">
-                                    <h5 class="card-title">Catégorie Salade</h5>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card-deck">
-                            <div class="card">
-                                <img src="ASSET/category/sandwich_cat.jpg" class="d-block w-50" alt="sand">
-                                <div class="card-body">
-                                    <h5 class="card-title">Catégorie Sandwish</h5>
+                                        <img src="ASSET/category/asian_food_cat_resized.jpg" class="card-img-bottom"
+                                            alt="asian">
+                                    </div>
                                 </div>
 
 
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Catégorie Burger</h5>
+
+                                        <img src="ASSET/category/burger_cat.jpg" class="card-img-bottom" alt="burger">
+                                    </div>
+                                </div>
+
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Catégorie Pâtes</h5>
+
+                                        <img src="ASSET/category/pasta_cat.jpg" class="card-img-bottom" alt="pate">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
+
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div class="card-deck">
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Catégorie Pizza</h5>
+
+                                        <img src="ASSET/category/pizza_cat.jpg" class="card-img-bottom" alt="pizza">
+                                    </div>
+                                </div>
+
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Catégorie Salade</h5>
+
+                                        <img src="ASSET/category/salade_cat_resized.jpg" class="card-img-bottom"
+                                            alt="salade">
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Catégorie Sandwish</h5>
+
+                                        <img src="ASSET/category/sandwich_cat.jpg" class="card-img-bottom" alt="sand">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
+    </div>
 
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+<!-- Bouton -->
+    <div class="row">
+        <div class="col-6">
+            <button type="button" class="btn btn-primary" href="#carousel" data-slide="prev">
+                Précédent</button>
+        </div>
 
-        <div class="row">
-            <div class="col-6">
-                <button type="button" class="btn btn-primary"> Précédent</button>
-            </div>
-
-            <div class="col-6">
-                <button type="button" class="btn btn-primary">Suivant</button>
-            </div>
+        <div class="col-6">
+            <button type="button" class="btn btn-primary" href="#carousel" data-slide="next">Suivant</button>
         </div>
     </div>
 
