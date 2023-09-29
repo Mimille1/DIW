@@ -16,3 +16,9 @@ a:hover{
     -webkit-transform: scale(1.1);
     transform:scale(1.1);
    }
+
+   .parallax{
+    background-attachment: fixed;
+    background-size:cover;
+    background-image: url(../Fond/image-fond.jpg);
+}
