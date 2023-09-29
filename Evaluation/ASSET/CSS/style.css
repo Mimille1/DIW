@@ -1,5 +1,5 @@
 .background{
-background-image: url('ASSET/Fond/ibg.jpg');
-min-height: 100px; 
-max-height:200px;
+background-image: url('../Fond/fond-planche-blanc.avif');
+min-height: 200px; 
+max-height:300px;
 }
