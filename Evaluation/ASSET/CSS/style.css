@@ -3,3 +3,16 @@ background-image: url('../Fond/fond-planche-blanc.avif');
 min-height: 200px; 
 max-height:300px;
 }
+a:hover{
+    text-decoration: none;
+}
+.card{
+    transition: transform .5s;   
+   }
+   .card:hover{
+   
+    background-color: lightpink !important;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform:scale(1.1);
+   }
