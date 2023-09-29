@@ -22,3 +22,8 @@ a:hover{
     background-size:cover;
     background-image: url(../Fond/image-fond.jpg);
 }
+.commande{
+
+    bottom:0px;
+    right:0px;
+}
